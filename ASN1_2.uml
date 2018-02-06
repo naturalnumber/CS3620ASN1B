@@ -3,82 +3,61 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="664.6625850340135" y="348.0">CircuitTest</node>
-    <node x="556.0197278911564" y="0.0">Gate</node>
-    <node x="626.0" y="159.0">NotGate</node>
-    <node x="0.0" y="135.0">Probe</node>
-    <node x="313.0" y="147.0">AndGate</node>
-    <node x="939.0" y="171.5">CircuitInput</node>
+    <node x="239.75" y="309.5">java.util.Observer</node>
+    <node x="313.0" y="439.0">NotGate</node>
+    <node x="747.25" y="297.0">Gate</node>
+    <node x="0.0" y="427.0">Probe</node>
+    <node x="626.0" y="439.0">AndGate</node>
+    <node x="939.0" y="439.0">CircuitInput</node>
+    <node x="704.25" y="0.0">java.util.Observable</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="CircuitTest" target="Gate">
-      <point x="84.85714285714289" y="-27.5" />
-      <point x="848.5197278911564" y="328.0" />
-      <point x="1169.5" y="328.0" />
-      <point x="1169.5" y="75.0" />
-      <point x="695.6697278911564" y="75.0" />
-      <point x="66.14999999999998" y="27.5" />
-    </edge>
-    <edge source="Probe" target="Gate">
-      <point x="73.25" y="-76.5" />
-      <point x="219.75" y="85.0" />
-      <point x="578.0697278911564" y="85.0" />
-      <point x="-51.450000000000045" y="27.5" />
+    <edge source="Probe" target="java.util.Observer">
+      <point x="0.0" y="-39.5" />
+      <point x="146.5" y="407.0" />
+      <point x="288.58333333333337" y="407.0" />
+      <point x="-97.66666666666663" y="27.5" />
     </edge>
     <edge source="NotGate" target="Gate">
-      <point x="0.0" y="-52.5" />
-      <point x="772.5" y="105.0" />
-      <point x="651.5697278911564" y="105.0" />
-      <point x="22.049999999999955" y="27.5" />
+      <point x="73.25" y="-27.5" />
+      <point x="532.75" y="407.0" />
+      <point x="780.0833333333333" y="407.0" />
+      <point x="-65.66666666666669" y="40.0" />
     </edge>
-    <edge source="CircuitTest" target="NotGate">
-      <point x="0.0" y="-27.5" />
-      <point x="763.6625850340135" y="328.0" />
-      <point x="772.5" y="328.0" />
-      <point x="0.0" y="52.5" />
-    </edge>
-    <edge source="CircuitTest" target="Probe">
-      <point x="-84.85714285714289" y="-27.5" />
-      <point x="678.8054421768707" y="328.0" />
-      <point x="73.25" y="328.0" />
-      <point x="-73.25" y="76.5" />
-    </edge>
-    <edge source="CircuitTest" target="AndGate">
-      <point x="-28.285714285714334" y="-27.5" />
-      <point x="735.3768707482992" y="308.0" />
-      <point x="459.5" y="308.0" />
-      <point x="0.0" y="64.5" />
+    <edge source="NotGate" target="java.util.Observer">
+      <point x="-73.25" y="-27.5" />
+      <point x="0.0" y="27.5" />
     </edge>
     <edge source="CircuitInput" target="Gate">
+      <point x="0.0" y="-27.5" />
+      <point x="1053.0" y="407.0" />
+      <point x="911.4166666666667" y="407.0" />
+      <point x="65.66666666666669" y="40.0" />
+    </edge>
+    <edge source="Gate" target="java.util.Observable">
       <point x="0.0" y="-40.0" />
-      <point x="1049.0" y="85.0" />
-      <point x="680.9697278911564" y="85.0" />
-      <point x="51.44999999999993" y="27.5" />
+      <point x="0.0" y="123.5" />
+    </edge>
+    <edge source="AndGate" target="java.util.Observer">
+      <point x="-73.25" y="-27.5" />
+      <point x="699.25" y="397.0" />
+      <point x="483.91666666666674" y="397.0" />
+      <point x="97.66666666666674" y="27.5" />
     </edge>
     <edge source="AndGate" target="Gate">
-      <point x="5.6843418860808015E-14" y="-64.5" />
-      <point x="459.50000000000006" y="105.0" />
-      <point x="607.4697278911565" y="105.0" />
-      <point x="-22.049999999999955" y="27.5" />
-    </edge>
-    <edge source="CircuitTest" target="CircuitInput">
-      <point x="28.285714285714334" y="-27.5" />
-      <point x="791.9482993197279" y="308.0" />
-      <point x="994.0" y="308.0" />
-      <point x="-55.0" y="40.0" />
+      <point x="73.25" y="-27.5" />
+      <point x="0.0" y="40.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="470.0" y="330.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="583.5" y="253.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
-    <Category>Constructors</Category>
     <Category>Methods</Category>
-    <Category>Properties</Category>
     <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
-  <VISIBILITY>private</VISIBILITY>
+  <VISIBILITY>protected</VISIBILITY>
 </Diagram>
 

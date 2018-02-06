@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="261.0" y="1113.0">KlondikePackage</node>
+    <node x="81.0" y="614.0">CruiseLinePanel.AddonAction</node>
+    <node x="866.0" y="796.0">HelicopterPackage</node>
+    <node x="1041.0" y="69.0">BalconyRoom</node>
+    <node x="390.0" y="166.0">CruiseLinePanel.RoomAction</node>
+    <node x="791.0" y="1062.0">RockClimbingPackage</node>
+    <node x="410.0" y="445.0">BeveragePackage</node>
+    <node x="0.0" y="167.0">CruiseLinePanel</node>
+    <node x="745.0" y="238.0">Room</node>
+    <node x="436.0" y="697.0">RoomAddon</node>
+    <node x="1191.0" y="328.0">SuiteRoom</node>
+    <node x="754.0" y="0.0">OceanViewRoom</node>
+    <node x="115.0" y="887.0">LumberjackPackage</node>
+    <node x="1127.0" y="613.0">InteriorRoom</node>
+    <node x="501.0" y="1197.0">EnlightenmentPackage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="HelicopterPackage" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="CruiseLinePanel.AddonAction" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RoomAddon" target="Room">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="InteriorRoom" target="Room">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="EnlightenmentPackage" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="BalconyRoom" target="Room">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="CruiseLinePanel.AddonAction" target="CruiseLinePanel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="SuiteRoom" target="Room">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="LumberjackPackage" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="KlondikePackage" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RockClimbingPackage" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="BeveragePackage" target="RoomAddon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="CruiseLinePanel.RoomAction" target="CruiseLinePanel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OceanViewRoom" target="Room">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="CruiseLinePanel.RoomAction" target="Room">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6772939346811819" x="683.5" y="633.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+
