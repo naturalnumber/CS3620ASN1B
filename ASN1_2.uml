@@ -4,10 +4,10 @@
   <OriginalElement />
   <nodes>
     <node x="664.6625850340135" y="348.0">CircuitTest</node>
-    <node x="556.0197278911563" y="0.0">Gate</node>
+    <node x="556.0197278911564" y="0.0">Gate</node>
     <node x="626.0" y="159.0">NotGate</node>
     <node x="0.0" y="135.0">Probe</node>
-    <node x="312.99999999999994" y="147.0">AndGate</node>
+    <node x="313.0" y="147.0">AndGate</node>
     <node x="939.0" y="171.5">CircuitInput</node>
   </nodes>
   <notes />
@@ -17,19 +17,19 @@
       <point x="848.5197278911564" y="328.0" />
       <point x="1169.5" y="328.0" />
       <point x="1169.5" y="75.0" />
-      <point x="695.6697278911563" y="75.0" />
+      <point x="695.6697278911564" y="75.0" />
       <point x="66.14999999999998" y="27.5" />
     </edge>
     <edge source="Probe" target="Gate">
-      <point x="-73.25" y="-76.5" />
-      <point x="73.25" y="75.0" />
-      <point x="563.3697278911563" y="75.0" />
-      <point x="-66.14999999999998" y="27.5" />
+      <point x="73.25" y="-76.5" />
+      <point x="219.75" y="85.0" />
+      <point x="578.0697278911564" y="85.0" />
+      <point x="-51.450000000000045" y="27.5" />
     </edge>
     <edge source="NotGate" target="Gate">
-      <point x="5.6843418860808015E-14" y="-52.5" />
+      <point x="0.0" y="-52.5" />
       <point x="772.5" y="105.0" />
-      <point x="651.5697278911563" y="105.0" />
+      <point x="651.5697278911564" y="105.0" />
       <point x="22.049999999999955" y="27.5" />
     </edge>
     <edge source="CircuitTest" target="NotGate">
@@ -47,20 +47,20 @@
     <edge source="CircuitTest" target="AndGate">
       <point x="-28.285714285714334" y="-27.5" />
       <point x="735.3768707482992" y="308.0" />
-      <point x="459.49999999999994" y="308.0" />
+      <point x="459.5" y="308.0" />
       <point x="0.0" y="64.5" />
     </edge>
     <edge source="CircuitInput" target="Gate">
       <point x="0.0" y="-40.0" />
       <point x="1049.0" y="85.0" />
-      <point x="680.9697278911563" y="85.0" />
+      <point x="680.9697278911564" y="85.0" />
       <point x="51.44999999999993" y="27.5" />
     </edge>
     <edge source="AndGate" target="Gate">
-      <point x="97.66666666666663" y="-64.5" />
-      <point x="557.1666666666665" y="115.0" />
-      <point x="622.1697278911563" y="115.0" />
-      <point x="-7.350000000000023" y="27.5" />
+      <point x="5.6843418860808015E-14" y="-64.5" />
+      <point x="459.50000000000006" y="105.0" />
+      <point x="607.4697278911565" y="105.0" />
+      <point x="-22.049999999999955" y="27.5" />
     </edge>
     <edge source="CircuitTest" target="CircuitInput">
       <point x="28.285714285714334" y="-27.5" />
@@ -69,7 +69,7 @@
       <point x="-55.0" y="40.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="585.0" y="208.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="470.0" y="330.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
